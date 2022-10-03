@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você veio",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Hello World!",
+      "autoria": "Nyu",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Au-au",
+      "autoria": "Temy",
+      "modelo": "modelo3"
+    }
+  ]
+}
