@@ -2,7 +2,7 @@ import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormBuilder, FormGroup, RequiredValidator, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -10,12 +10,6 @@ import { FormBuilder, FormGroup, RequiredValidator, Validators } from '@angular/
   styleUrls: ['./criar-pensamento.component.scss']
 })
 export class CriarPensamentoComponent implements OnInit {
-
-  pensamento: Pensamento = {
-    conteudo: '',
-    autoria: '',
-    modelo: ''
-  }
 
   formulario!: FormGroup;
 
