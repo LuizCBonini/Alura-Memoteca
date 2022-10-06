@@ -1,3 +1,5 @@
+import { Router } from '@angular/router';
+import { PensamentoService } from './../pensamento.service';
 import { Component, Input, OnInit } from '@angular/core';
 
 import { Pensamento } from '../pensamento';
@@ -11,11 +13,12 @@ export class PensamentoComponent implements OnInit {
 
   @Input() pensamento: Pensamento = {
     id: 0,
-    conteudo: 'I love Angular',
-    autoria: 'Nay',
-    modelo: 'modelo3'
+    conteudo: '',
+    autoria: '',
+    modelo: '',
+    favorito: false
   }
-  constructor() { }
+  constructor(private service: PensamentoService, private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -26,6 +29,11 @@ export class PensamentoComponent implements OnInit {
     } else {
       return 'pensamento-p'
     }
+  }
+
+  favoritar() {
+    this.service.mudarFavorito(this.pensamento)
+      .subscribe();
   }
 
 }

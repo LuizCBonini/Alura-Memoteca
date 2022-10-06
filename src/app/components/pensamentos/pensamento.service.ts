@@ -28,19 +28,17 @@ export class PensamentoService {
       .get<Pensamento[]>(this.API, { params })
   }
 
-  // buscar(filtro: string): Observable<Pensamento[]> {
-  //   let params = new HttpParams()
-  //     .set("q", filtro)
-
-  //   return this.http
-  //     .get<Pensamento[]>(this.API, {params})
-  // }
-
   criar(pensamento: Pensamento): Observable<Pensamento> {
     return this.http.post<Pensamento>(this.API, pensamento)
   }
 
   editar(pensamento: Pensamento): Observable<Pensamento> {
+    const url = `${this.API}/${pensamento.id}`
+    return this.http.put<Pensamento>(url, pensamento)
+  }
+
+  mudarFavorito(pensamento: Pensamento): Observable<Pensamento> {
+    pensamento.favorito = !pensamento.favorito
     const url = `${this.API}/${pensamento.id}`
     return this.http.put<Pensamento>(url, pensamento)
   }
