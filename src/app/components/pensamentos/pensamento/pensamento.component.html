@@ -7,7 +7,7 @@
             <img 
                 src="/assets/Imgs/icone-favorito-{{pensamento.favorito ? 'ativo' : 'inativo'}}.png" 
                 alt="Ícone de favorito {{pensamento.favorito ? 'ativo' : 'inativo'}}"
-                (click)="favoritar()">
+                (click)="atualizarFavorito()">
         </button>
         <button class="botao-editar">
             <img src="../../../../assets/Imgs/icone-editar.png" routerLink="/pensamento/editarPensamento/{{pensamento.id}}" alt="Ícone de edição">
