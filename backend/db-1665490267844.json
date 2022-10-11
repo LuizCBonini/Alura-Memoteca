@@ -1,0 +1,102 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você veio",
+      "autoria": "Nay",
+      "modelo": "modelo1",
+      "favorito": true
+    },
+    {
+      "id": 2,
+      "conteudo": "Lembrei!",
+      "autoria": "Nyu",
+      "modelo": "modelo2",
+      "favorito": true
+    },
+    {
+      "id": 3,
+      "conteudo": "Au-au",
+      "autoria": "Temy",
+      "modelo": "modelo3",
+      "favorito": true
+    },
+    {
+      "conteudo": "TESTE",
+      "autoria": "sasd",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 4
+    },
+    {
+      "conteudo": "asdads",
+      "autoria": "asd",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 5
+    },
+    {
+      "conteudo": "asdasd",
+      "autoria": "sss",
+      "modelo": "modelo2",
+      "favorito": false,
+      "id": 6
+    },
+    {
+      "conteudo": "asdasd",
+      "autoria": "asds",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 7
+    },
+    {
+      "conteudo": "TESTE",
+      "autoria": "sad",
+      "modelo": "modelo2",
+      "favorito": true,
+      "id": 8
+    },
+    {
+      "conteudo": "asuhashusahusahuashuuahhsaushuahasu",
+      "autoria": "asd",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 9
+    },
+    {
+      "conteudo": "TESTE",
+      "autoria": "Nyu",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 10
+    },
+    {
+      "conteudo": "asd",
+      "autoria": "asd",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 11
+    },
+    {
+      "conteudo": "asd",
+      "autoria": "asd",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 12
+    },
+    {
+      "conteudo": "asd",
+      "autoria": "asd",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 13
+    },
+    {
+      "conteudo": "uytu",
+      "autoria": "retrett",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 14
+    }
+  ]
+}
