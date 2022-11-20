@@ -1,27 +1,54 @@
-# Memoteca
+<h1 align="center">Memoteca</a>
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
+<p align="center">Projeto de um site para postagem de frases curtas, criado na aula de Angular da Alura.</p>
+<p align="center">Neste projeto é possível criar blocos personalizados com curtas frases de que deseja se lembrar mais tarde, é possível também editar as frases, favoritar, filtrar por favoritas e também buscar.</p>
+
+
+### ✅ Features
+
+- [x] 100% Responsivo
+- [x] Consumo de API
+- [x] Registro de nova frase
+- [x] Deletar frase
+- [x] favoritar frase
+- [x] Busca
+- [x] Paginação
+
+#### 🏠 Mural
+
+![Início](https://github.com/LuizCBonini/Alura-Memoteca/blob/main/src/assets/Imgs/mural.png)
+
+#### 📚 Busca
+
+![Busca](https://github.com/LuizCBonini/Alura-Memoteca/blob/main/src/assets/Imgs/busca.png)
+
+#### 📝 Adicionar frase
+
+![Nova](https://github.com/LuizCBonini/Alura-Memoteca/blob/main/src/assets/Imgs/novo.png)
+
+</div>
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- Angular
+- Json Server
+
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### ✅ Autor
 
-## Build
+<img src="https://github.com/LuizCBonini.png" width="100px;"/>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito por Luiz Carlos Bonini, entre em contato!
+<div>
+  <p>lc.bonini13@gmail.com</p>
+    <a href="https://www.linkedin.com/in/dev-luiz-carlos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
